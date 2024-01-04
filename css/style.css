@@ -12,7 +12,7 @@
 .container {
   margin: 0 auto;
   padding: 0 20px;
-  max-width: 1250px;
+  width: 1250px;
   flex-wrap:wrap ;
 }
 body {
@@ -457,4 +457,31 @@ h1 {
   margin: 0 auto;
   background: #181818; 
   width: 100%;!important
+}
+
+/* MEDIA ////////////////// */
+@media (max-width: 480px) {
+  body{
+    flex-wrap: wrap;
+  }
+  .header{
+    display: block;
+    width: 100%;
+  }
+  .header-img img{
+    display: block;
+    margin: 0 auto;
+  }
+  .header-img{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 50px;
+  }
+  .header-texts{
+    margin: 0 auto;
+  }
+ .footer{
+  width: 1250px;
+  margin: 0 auto;
+ }
 }
